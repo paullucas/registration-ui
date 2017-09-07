@@ -1,0 +1,83 @@
+body {
+  background-color: #212121;
+  color: white;
+}
+
+input {
+  border-radius: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid white;
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+label {
+  display: none;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-control.has-error:focus {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483 !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483 !important;
+}
+
+.form-control:focus {
+  border-color: white;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,255,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,255,.6);
+}
+
+.headerContainer {
+  background-color: white;
+  min-height: 150px;
+  display: table;
+  padding-bottom: 5px;
+  
+}
+
+.headerTitle {
+  color: black;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.submitBtnContainer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.submitBtn {
+  border-radius: 0 !important;
+  margin-top: 10px;
+  float: right;
+}
+
+@media(min-width:768px){
+  .submitBtnContainer {
+    margin-top: 10px;
+  }
+  .infoFormContainer {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media(min-width:992px){
+  .submitBtnContainer {
+    margin-top: 0;
+  }
+  .infoFormContainer {
+    padding-right: 30px;
+    padding-top: 25px;
+  }
+}
